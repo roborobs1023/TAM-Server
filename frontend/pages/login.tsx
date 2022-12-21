@@ -30,7 +30,7 @@ export default function Login() {
     })
 
     const submitHandler = (data: LoginProps) => {
-        const autUser = userService.getDbUserByUsername(data.username)
+        const autUser = loginService.getDbUserByUsername(data.username)
     }
 
     const handleClickShowPassword = () => {

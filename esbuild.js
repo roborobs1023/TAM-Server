@@ -3,7 +3,7 @@ const { sassPlugin } = require('esbuild-sass-plugin')
 
 esbuild
   .build({
-    entryPoints: ['frontend/App.tsx', 'frontend/style.scss'],
+    entryPoints: ['frontend/App.tsx', 'frontend/styles/style.scss'],
     outdir: 'public/assets',
     bundle: true,
     watch: true,
