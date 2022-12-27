@@ -1,5 +1,4 @@
 import axios from "axios";
-import { useQuery } from 'react-query'
 import { Address } from "./Address";
 import { Phone } from "./Phone";
 import { Site } from "./Site";
